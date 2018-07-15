@@ -6,6 +6,7 @@ import Resume from "./Resume.jsx";
 import Error from "./Error.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
+import Games from "./Games.jsx";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/resume" component={Resume} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
+          <Route path="/games" component={Games} />
           <Route component={Error} />
         </Switch>
       </div>
